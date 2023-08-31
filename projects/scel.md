@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/scel_logo.png
 title: "Smart Campus Energy Lab (Firmware Team)"
 date: 2023
 published: true
@@ -21,22 +21,6 @@ summary: "Vertically Integrated Project that develops the firmware being used by
   <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
 </div>
 
-The Smart Campus Energy Lab (SCEL) is a Vertically Integrated Project (VIP) here at UH Manoa. Currently, SCEL's main goal is to develop weatherboxes which are a collection of various sensors enclosed in weathproof casings. These weatherboxes collect meteorologial data like solar radiance, temperature, humidity, and etc. This meteorological data ...
+The Smart Campus Energy Lab (SCEL) is a Vertically Integrated Project (VIP) here at UH Manoa. Currently, SCEL's main goal is to develop weatherboxes which are pieces of hardware composed of various sensors enclosed in weatherproof casings. These weatherboxes collect meteorologial data like solar radiance, temperature, humidity, and etc. This meteorological data is then used to train a machine learning model to forecast weather patterns with the purpose of optimizing ideal locations for photovoltaic panel placement throughout campus. Using this technology, UH Manoa can take steps towards being 100% sustainable. In a bigger picture, the entire state of Hawaii has the goal of being 100% renewable by the year 2045 and this technology can be used to maximize our renewable energy efficiency in terms of cost. 
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
-
-Here is some code that illustrates how we read values from the line sensors:
-
-```cpp
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
-
-You can learn more at the [UH Micromouse News Announcement](https://manoa.hawaii.edu/news/article.php?aId=2857).
+As I was in the Firmware team, our job is to maintain the current weatherbox code, develop new features that can improve the quality of life of the system behind the scenes, and assist the hardware teams with any issues they may have. In the 2023 Spring semester, my team worked on developing a data pipeline. This pipeline essentially automates the process of structuring the software in new hardware models as they will all follow the same unified schema. This will allow for easier data management and manipulation in the databases as all weatherbox versions will have the same formatting. To develop this feature, we used mostly SQL, Python, and the command line along with C and C++ to work on Arduino code.
