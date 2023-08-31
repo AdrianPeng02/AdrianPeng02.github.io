@@ -11,71 +11,13 @@ labels:
   - Programming
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
-
 ## My First Experience
 
-Prior to taking this course, I had essentially 
+Prior to taking this course, I had essentially zero experience with JavaScript. The most I knew about the language was probably the name and that it was used for web development. So when we were tasked to complete some JavaScript lessons on CodeAcademy, I was quite excited. Excited because learning JavaScript will allow me to broaden my skill set and introduce me to new fields. That same excitement was quickly washed away with fear. Signing onto FreeCodeCamp and seeing over a hundred lessons that are due in a couple of days made me reconsider my excitement. However, as I started doing the lessons, my fear slowly faded as they turned out to be quite simple thanks to my prior experiences with C, C++, and Python from my previous coursework. I managed to complete the entire introduction and ES6 courses in only a couple hours and I think it was a great introduction to all the things you can do with the language. However, I don't think I am competent enough yet to develop complete projects using what limited knowledge and experience I have. Hopefully, as this course proceeds, I will be able to hone and develop my skills to become a JavaScript master. 
 
-## What’s a smart question?
+## Another Language In The Books
+Learning JavaScript is like learning any other language. As mentioned previously, I have learned C, C++, and Python from my engineering courses so learning JavaScript was a process I am familiar with. Doing the JavaScript course, I noticed a lot of symtax similarities to C and C++. More specifically, for-loops, while-loops, if-else statements, and functions are written in a very similar fashion. I also noticed some pretty big differences in the languages. The most significant for me was variable declaration. In C and C++, you need to declare the variable type as an 'int', 'char', 'bool', etc. However, in JavaScript you can declare any variable with the 'var' or 'let' and it will just work like magic. 
 
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
-
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
-
-```
-Q: python date of the previous month
-
-I am trying to get the date of the previous month with python. Here is what i've tried:
-
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
-
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
-
-I have solved this trouble in bash with:
-
-echo $(date -d"3 month ago" "+%G%m%d")
-
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
-
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
-
-Thanks for your help!
-```
-
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
-
-```
-A: datetime and the datetime.timedelta classes are your friend.
-
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
-
-Like this:
-
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
-
-```
- 
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
 
 ## The foolproof way to get ignored.
 
