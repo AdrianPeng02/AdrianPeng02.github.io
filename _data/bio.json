@@ -9,8 +9,8 @@
     "summary": "I am studying for a B.S. in Computer Engineering at the University of Hawaii. I expect to graduate in Spring, 2024.",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "AdrianPeng02", "url": "http://https://github.com/AdrianPeng02" },
-      { "network": "linkedin", "username": "adrianpeng", "url": "http://https://www.linkedin.com/in/adrianpeng/" }
+      { "network": "github", "username": "AdrianPeng02", "url": "https://github.com/AdrianPeng02" },
+      { "network": "linkedin", "username": "adrianpeng", "url": "https://www.linkedin.com/in/adrianpeng/" }
     ]
   },
   "interests": [
@@ -58,69 +58,47 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
+      "company": "University of Hawaii at Manoa",
+      "position": "Student Assistant for Food Engineering",
+      "website": "https://www.juninnovationsinc.com/",
+      "startDate": "2022",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Engineering assistant for developing supercooling technology",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
-    },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Optimization and debugging of supercooling software",
+        "PCB/Hardware design",
+        "3D design, printing, and CAD",
+        "Rapid-testing",
+        "Quality control"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
+      "organization": "HKN",
+      "website": "",
+      "position": "Pledge",
+      "startDate": "2023",
       "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "summary": "Student pledge for the International Honor Society for Electrical and Computer Engineers",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Tutor engineering students with coursework from 100/200 level courses",
+        "Participate and volunteer at engineering related events"
       ]
     },
     {
-      "organization": "",
+      "organization": "Smart Campus Energy Lab VIP",
       "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
+      "position": "Firmware Team Member",
+      "startDate": "2023",
+      "endDate": "Present",
       "summary": "",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Work with a group of engineering students to develop weatherboxes which are used to gather meteorological data to train forecasting models and optimize renewable energy efficiency",
+        "Maintain existing software and develop quality of life changes for the system ",
+        "Developed simplified data pipeline to streamline data collection, storage, and manipulation",
+        "Assist hardware teams with technical issues"
       ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
     }
   ],
   "references": [
