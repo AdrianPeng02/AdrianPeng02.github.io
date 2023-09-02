@@ -4,13 +4,13 @@ type: essay
 title: "A Long Road Ahead"
 # All dates must be YYYY-MM-DD format!
 date: 2023-08-30
-published: true
+published: false
 labels:
   - Software Engineering
 ---
 
-## a
+## The Past
 
-## b
+## The Present
 
-## c
+## The Future
