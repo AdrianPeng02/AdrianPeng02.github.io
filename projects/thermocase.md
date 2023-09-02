@@ -12,10 +12,14 @@ labels:
 summary: "A portable refrigeration device that can be controlled via Bluetooth"
 ---
 <p align="center">
-<img class="img-fluid" src="..img/thermocase/thermocase_cropped.png">
+<img class="img-fluid" src="../img/thermocase/thermocase_cropped.png">
 </p>
 
+The initial motivation to create ThermoCase was to essentially have a smart and portable mini-fridge. However, as the project progressed, I realized that this device can be used for a lot of scenarios other than just chilling your food and drinks. For example, there are many things that are temperature-sensitive such as pharmaceuticals, biologics, and potentially even organs, all of which require some sort of refrigeration during transport. 
 
-The Smart Campus Energy Lab (SCEL) is a Vertically Integrated Project (VIP) here at UH Manoa. Currently, SCEL's main goal is to develop weatherboxes which are pieces of hardware composed of various sensors enclosed in weatherproof casings. These weatherboxes collect meteorologial data like solar radiance, temperature, humidity, and etc. This meteorological data is then used to train a machine learning model to forecast weather patterns with the purpose of optimizing ideal locations for photovoltaic panel placement throughout campus. Using this technology, UH Manoa can take steps towards being 100% sustainable. In a bigger picture, the entire state of Hawaii has the goal of being 100% renewable by the year 2045 and this technology can be used to maximize our renewable energy efficiency in terms of cost. 
+ThermoCase is quite simple and similar to existing refrigeration systems in terms of how it functions. It runs solely off batteries and an Arduino program that checks the internal temperatures of the case and will adjust a Peltier cooler as well as fans to meet desired temperatures. Additionally, there is a companion application that can connect to our cooler via Bluetooth. This application allows for remote monitoring and temperature control. 
 
-As I was in the Firmware team, our job is to maintain the current weatherbox code, develop new features that can improve the quality of life of the system behind the scenes, and assist the hardware teams with any issues they may have. In the 2023 Spring semester, my team worked on developing a data pipeline. This pipeline essentially automates the process of structuring the software in new hardware models as they will all follow the same unified schema. This will allow for easier data management and manipulation in the databases as all weatherbox versions will have the same formatting. To develop this feature, we used mostly SQL, Python, and the command line along with C and C++ to work on Arduino code.
+<p align="center">
+<img class="img-fluid" src="../img/thermocase/thermocase_schematic.png">
+<img class="img-fluid" src="../img/thermocase/thermocase_app.png">
+</p>
