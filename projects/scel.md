@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/scel_logo.png
+image: img/scel-images/scel_logo.png
 title: "Smart Campus Energy Lab (Firmware Team)"
 date: 2023
 published: true
