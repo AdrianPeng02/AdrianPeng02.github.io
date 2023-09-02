@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/thermocase/thermocase_cropped.png
 title: "ThermoCase"
-date: 2021
+date: 2022
 published: true
 labels:
   - C
