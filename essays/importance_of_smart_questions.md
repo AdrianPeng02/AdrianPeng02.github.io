@@ -38,9 +38,9 @@ var x = foo['bar'];
 // vs. 
 var x = foo.bar;
 
-Context: I've written a code generator which produces these expressions and I'm wondering which is preferable.
+Context: I've written a code generator that produces these expressions and I'm wondering which is preferable.
 ```
-&nbsp;&nbsp;&nbsp;&nbsp; In this example, the user's title is quite straightforward and is able to convey the question without needing any extra context as it is asking for the difference between using two different property access methods as well as the language it is referring to (JavaScript). In the body of the post, the user provides us with a very basic code example to help the us readers understand with more detail what they question is trying to convey. Additionally, this post has amassed nearly 200k vieews meaning many others have had this question too, myself included. 
+&nbsp;&nbsp;&nbsp;&nbsp; In this example, the user's title is quite straightforward and is able to convey the question without needing any extra context as it is asking for the difference between using two different property access methods as well as the language it is referring to (JavaScript). In the body of the post, the user provides us with a very basic code example to help us readers understand with more detail what the question is trying to convey. Additionally, this post has amassed nearly 200k views meaning many others have had this question too, myself included. 
 
 ## A Not-So-Smart Question
 It would be amazing if all the questions were smart. Unfortunately, that is not the case as we have this post titled, "
