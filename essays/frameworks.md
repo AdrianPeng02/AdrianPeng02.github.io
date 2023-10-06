@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Keeping Standards High"
+title: "Strap in for Success"
 # All dates must be YYYY-MM-DD format!
 date: 2023-10-05
 published: true
@@ -11,14 +11,15 @@ labels:
   - Bootstrap
 ---
 <p align="center">
-<img width="250px" class="img-fluid" src="../img/frameworks/bootstrap5logo.png">
+<img width="350px" class="img-fluid" src="../img/frameworks/bootstrap5logo.png">
 </p>
 
-## The Absence of Standards
-Throughout my time as a computer engineering student, I have worked with quite a lot of different people and viewed many different versions of the same programs. This is mostly the result of the lack of any sort of enforcement of coding standards in our courses. For example, someone might want to write out 20 if-else statements while someone else will prefer to use a switch statement. Because of these differences in styles, I noticed that it would take varying amounts of time to analyze code depending on how similar it was to your own style. 
+## What Is a Framework and Why Should I Care?
+In the realm of programming and software development, a framework is a structured and pre-established set of tools, libraries, conventions, and guidelines that provide some foundation for building applications. Generally, these frameworks can simplify the development process and promote efficiency, consistency, and readability of the codebase. Basically, frameworks can significantly speed up development processes by establishing many common functionalities so developers don't have to spend time reinventing them, allowing them to focus on the specific functionality unique to their projects.
 
-## Are Coding Standards Really That Important?
-The importance of coding standards really varies depending on the specifics of a job. In a large company with dozens or even hundreds of software developers, having coding standards is a must. If each developer could write and push code in their own style, the overall repository would be a mess, and analyzing it would be quite a difficult task. However, in the case of a smaller work environment like a school group project, I think coding standards don't have to be as strict. In fact, I think not having these coding standards can allow for more creativity and freedom to code in a way people are more comfortable with. 
+## My Experience with Bootstrap 5
+Prior to using Bootstrap, I wrote all my web pages with pure HTML and CSS. As a result, my CSS stylesheets and main index files were always loaded with many small things like padding, margins, and a lot of classes to define things like navbars and footers. Therefore the introduction of Bootstrap was revolutionary and things like creating a navbar were now trivial and could be done in a fraction of the length of the original code. This is because in Bootstrap, you can give an element the <i>navbar</i> class, and all the tedious formatting will be completed for you. However, getting to the point of being able to use Bootstrap effectively was not a smooth path. There was a big learning curve of learning what functions even exist and furthermore picking the correct ones to use for my specific scenario. 
 
-## My Experiences with ESLint
-Prior to ESLint, I wrote my programs in whatever way I felt most comfortable with. Therefore, being conditioned to use ESLint was hard for me initially due to it requiring different formatting of code. One of the standards in ESLint that I am definitely not a fan of is how it wants if-else statements. I personally write every if-else statement on a new line but ESLint requires you to start the next statement at the end of the previous. However, if we were to just skip over that one standard, I think ESLint has made me change some habits that allow me to be a better and more efficient programmer. 
+## Bootstrap in Action
+Below are some images of the differences in using Bootstrap vs. pure CSS styling and the amount of code to achieve similar designs.
+<img  class="img-fluid" src="../img/frameworks/no_bootstrap_browser.png">
