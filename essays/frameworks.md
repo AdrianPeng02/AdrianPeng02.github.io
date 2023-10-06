@@ -22,4 +22,19 @@ Prior to using Bootstrap, I wrote all my web pages with pure HTML and CSS. As a 
 
 ## Bootstrap in Action
 Below are some images of the differences in using Bootstrap vs. pure CSS styling and the amount of code to achieve similar designs.
-<img  class="img-fluid" src="../img/frameworks/no_bootstrap_browser.png">
+
+<p align="center">
+<img  height="400px" class="img-fluid" src="../img/frameworks/no_bootstrap_browser.jpg">
+<img  height="400px" class="img-fluid" src="../img/frameworks/no_bootstrap_style_browser.jpg">
+<br>This is an example of making a simple webpage with pure HTML and CSS and the stylesheet code on the right
+</p>
+
+<p align="center">
+  <br><br>
+<img  height="400px" class="img-fluid" src="../img/frameworks/bootstrap_browser.jpg">
+<img  width="200px" class="img-fluid" src="../img/frameworks/bootstrap_style_browser.jpg">
+<br>This is an example of the same website but with Bootstrap implementation and a simplified stylesheet
+</p>
+
+<br>
+As a viewer of the site, I personally think that the Bootstrap version of the site is a lot more visually appealing. As the developer of the site, I can appreciate writing much less code to get the same functionality and look of a project.
