@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: ""
+title: "AI in Education"
 # All dates must be YYYY-MM-DD format!
 date: 2023-11-21
 published: true
@@ -10,7 +10,7 @@ labels:
   - Artificial Intelligence
 ---
 <p align="center">
-<img class="img-fluid" src="../img/smart_questions.jpg">
+<img class="img-fluid" src="../img/ai.jpg">
 </p>
 
 ## Introduction
