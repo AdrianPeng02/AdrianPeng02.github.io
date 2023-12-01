@@ -10,7 +10,7 @@ labels:
   - Design Patterns
 ---
 <p align="center">
-<img class="img-fluid" src="../img/smart_questions.jpg">
+<img class="img-fluid" src="../img/cookingcode.png">
 </p>
 
 
