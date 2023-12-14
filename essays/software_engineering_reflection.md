@@ -1,17 +1,16 @@
 ---
 layout: essay
 type: essay
-title: "AI in Education"
+title: "A Software Engineering Odyssey"
 # All dates must be YYYY-MM-DD format!
-date: 2023-11-21
+date: 2023-12-13
 published: false
 labels:
   - Software Engineering
-  - Artificial Intelligence
 ---
 <p align="center">
 <img class="img-fluid" src="../img/ai.jpg">
 </p>
 
-## Introduction
-AI in education can be a touchy subject because it is often grouped with things like cheating and academic misconduct. However, I think that AI can be an extremely helpful tool in education as it can help students understand concepts in different ways. The field of software engineering is where there are a lot of small details and intricacies that are hard to memorize or even get taught. Using a language model such as ChatGPT or a pair programming AI like Co-Pilot can really help the user learn if used in that way. Personally, I have used ChatGPT and Co-Pilot quite a few times to answer any questions I may have or fix small bugs in where I don't notice where the error may be. Overall, it saves a lot of time in debugging and trying to figure out how things work.
+This semester I have taken my first software engineering course. Prior to this, all my coursework revolved around circuitry, hardware, and algorithms just to name a few. Basically, I had no experience creating an actual product or knowing the process behind it. Now that I have completed ICS 314, I can confidently say that this was one of the most enjoyable courses I have taken throughout my college career because of all the relevant and applicable concepts and tools we have learned. Generally speaking, I would say everything I have learned this semester from ICS 314 is equally important but I would like to highlight the concepts of Development Environments as well as Coding Standards as I believe they are more important for future coursework as well as the professional field. 
+
