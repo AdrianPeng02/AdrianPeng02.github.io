@@ -9,7 +9,7 @@ labels:
   - Software Engineering
 ---
 <p align="center">
-<img class="img-fluid" src="../img/ai.jpg">
+<img class="img-fluid" src="../img/swe.jpg">
 </p>
 
 # Semester Recap
@@ -22,4 +22,4 @@ In this course, our primary Integrated Development Environment (IDE) was Intelli
 I do think coding standards are important in the professional field as they allow many people to follow the same code structure and encourage organization. However, in this course, we used ESLint as our primary code analysis tool and I can come to the conclusion that I am not a very big fan of it. The biggest issue I have with ESLint specifically is how it likes to structure code. For example, when writing If-Else statements ESLint requires us to start the 'else' statement on the same line as the end of the 'if' statement which I am not a fan of. But besides all these small coding intricacies, I think it does help me organize code a lot better as it tells me when certain functions, imports, or variables are not being used which can help me restructure the codebase better. I think after working on a group project, ESLint was definitely helpful in keeping our code style uniform and clean because without it, having 5 different coding styles would have made developing a lot harder when attempting to work on other people's code. 
 
 # Wrap Up
-I really enjoyed ICS 314 and I think it was a fun course due to all the practical skills I have learned. I think that being able to cover such a wide range of topics was very beneficial even if at a surface level as it can open up various doors to what I may want to do later on. As I wrap up this course, I hope to be able to retain and continue to develop the skills I have learned in this class for potentially future courses as well as my career. 
+I really enjoyed ICS 314 and I think it was a fun course due to all the practical skills I have learned. I think that being able to cover such a wide range of topics was very beneficial even if at a surface level as it can open up various doors to what I may want to do later on. As I wrap up this course, I hope to be able to retain and continue to develop the skills I have learned in this class for potential future courses as well as my career. 
