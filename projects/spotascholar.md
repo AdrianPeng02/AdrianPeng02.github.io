@@ -4,7 +4,7 @@ type: project
 image: img/spotascholar.png
 title: "Spot-a-Scholar"
 date: 2023
-published: false
+published: true
 labels:
   - Issue Driven Project Management
   - Javascript
