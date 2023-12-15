@@ -1,0 +1,108 @@
+{
+  "basics": {
+    "name": "Adrian Peng",
+    "label": "Student",
+    "picture": "https://github.com/AdrianPeng02.png",
+    "email": "apeng2@hawaii.edu",
+    "phone": "808-498-5434",
+    "website": "https://AdrianPeng02.github.io",
+    "summary": "I am studying for a B.S. in Computer Engineering at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "AdrianPeng02", "url": "https://github.com/AdrianPeng02" },
+      { "network": "linkedin", "username": "adrianpeng", "url": "https://www.linkedin.com/in/adrianpeng/" }
+    ]
+  },
+  "interests": [
+    { "name": "Software Engineering" },
+    { "name": "Application Design" },
+    { "name": "Machine Learning" },
+    { "name": "Web Development" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "Python", "Javascript", "Arduino", "MATLAB", "SQL", "Verilog", "HTML", "CSS" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "MacOS", "Windows", "Linux", "Git/GitHub", "g++"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Engineering (expected Spring, 2024)",
+      "studyType": "B.S.",
+      "startDate": "2020",
+      "endDate": "Present",
+      "courses": [
+        "Object Oriented Programming",
+        "Basic Circuit Analysis I/II", 
+        "Physical Electronics",
+        "Linear Algebra and Machine Learning",
+        "Introduction to Digital Design",
+        "Digital Systems and Computer Design",
+        "Discrete Math for Engineers",
+        "Engineering Electromagnetics I",
+        "Signals and Systems Analysis",
+        "Microelectronic Circuits I",
+        "Data Structures and Algorithms",
+        "Probability and Statistics",
+        "Operating Systems",
+        "Software Engineering I",
+        "Database Systems I"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "University of Hawaii at Manoa",
+      "position": "Student Assistant for Food Engineering",
+      "website": "https://www.juninnovationsinc.com/",
+      "startDate": "2022",
+      "endDate": "Present",
+      "summary": "Engineering assistant for developing supercooling technology",
+      "highlights": [
+        "Optimization and debugging of supercooling software",
+        "PCB/Hardware design",
+        "3D design, printing, and CAD",
+        "Rapid-testing",
+        "Quality control"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "HKN",
+      "website": "",
+      "position": "Pledge",
+      "startDate": "2023",
+      "endDate": "Present",
+      "summary": "Student pledge for the International Honor Society for Electrical and Computer Engineers",
+      "highlights": [
+        "Tutor engineering students with coursework from lower division courses",
+        "Participate and volunteer at engineering-related events"
+      ]
+    },
+    {
+      "organization": "Smart Campus Energy Lab VIP",
+      "website": "",
+      "position": "Firmware Team Member",
+      "startDate": "2023",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+        "Work with a group of engineering students to develop weatherboxes which are used to gather meteorological data to train forecasting models and optimize renewable energy efficiency",
+        "Maintain existing software and develop quality of life changes for the system ",
+        "Developed simplified data pipeline to streamline data collection, storage, and manipulation",
+        "Assist hardware teams with technical issues"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}
